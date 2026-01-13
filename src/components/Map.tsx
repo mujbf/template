@@ -26,7 +26,7 @@ const Map = () => {
             Our Headquarters
           </Typography>
           <Typography variant="body" className="mb-6 text-sm sm:text-base">
-            Colombo 10
+            Trace Expert City, Colombo 10
             <br />
             Sri Lanka
           </Typography>
