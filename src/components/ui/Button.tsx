@@ -33,13 +33,15 @@ const Button = ({
 
   const variants = {
     primary:
-      "bg-primary-500 text-white hover:bg-primary-600 shadow-lg shadow-primary-500/20 hover:shadow-xl hover:shadow-primary-500/30",
-    secondary: "bg-muted text-foreground hover:bg-accent",
+      "bg-primary-600 text-white hover:bg-primary-700 shadow-lg shadow-primary-600/20 hover:shadow-xl hover:shadow-primary-600/30",
+    secondary:
+      "bg-gray-100 text-gray-900 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-100",
     outline:
-      "border-2 border-primary-500 text-primary-500 hover:bg-primary-500 hover:text-white",
-    ghost: "text-foreground hover:bg-muted font-medium",
+      "border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white",
+    ghost:
+      "text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-800 font-medium",
     glass:
-      "glass text-foreground hover:bg-white/10 dark:hover:bg-black/20 border border-white/10",
+      "backdrop-blur-md bg-white/10 dark:bg-black/10 text-gray-900 dark:text-gray-100 hover:bg-white/20 dark:hover:bg-black/20 border border-white/10",
   };
 
   const sizes = {
@@ -55,7 +57,7 @@ const Button = ({
     <>
       {isLoading && (
         <svg
-          className="animate-spin -ml-1 mr-2 h-4 w-4 text-current"
+          className="animate-spin h-4 w-4 text-current"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"

@@ -75,7 +75,7 @@ const Pricing = () => {
               transition={{ delay: index * 0.1 }}
               className={`p-10 rounded-[3rem] ${
                 plan.popular
-                  ? "bg-foreground text-background dark:bg-primary-600 dark:text-white scale-105 shadow-2xl shadow-primary-500/20 z-10"
+                  ? "bg-foreground text-background dark:bg-primary-400/50 dark:text-white scale-105 shadow-2xl shadow-primary-500/20 z-10"
                   : "bg-muted/50 border border-border"
               } relative`}
             >

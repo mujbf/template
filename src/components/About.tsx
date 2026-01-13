@@ -16,7 +16,7 @@ const About = () => {
           >
             <div className="relative z-10 rounded-[2.5rem] overflow-hidden border-8 border-background shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1522071823991-b9671f903f60?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+                src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?q=80&w=1147&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Our Team"
                 className="w-full h-full object-cover aspect-[4/5]"
               />
