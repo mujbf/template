@@ -20,6 +20,7 @@ import Map from "./components/Map";
 import SocialProof from "./components/SocialProof";
 import Footer from "./components/Footer";
 import StyleGuide from "./components/StyleGuide";
+import GalleryDemo from "./components/Gallery";
 
 function App() {
   const [currentPage, setCurrentPage] = useState<"home" | "style-guide">(
@@ -52,6 +53,7 @@ function App() {
             <Testimonials />
             <Team />
             <Pricing />
+            <GalleryDemo/>
             <FAQ />
             <CTA />
             <Blog />
